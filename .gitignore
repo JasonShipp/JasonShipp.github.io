@@ -42,5 +42,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# =========================
+# Other files
+# =========================
+
 # PHP code
 .php
+.xlsx
