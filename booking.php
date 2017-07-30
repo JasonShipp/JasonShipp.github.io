@@ -50,26 +50,29 @@
 	<div id="top">
 		<div id ="background" style="background-image:url('images/index/river-banner.jpg');">
 		</div>
-			<img id ="door_logo_1" alt="Door logo" src="images/index/door-logo.png">
-			<img id ="door_logo_2" alt="Door logo" src="images/index/door-logo-2.png">
+			<img id ="door_logo_1" alt="Door logo" src="images/index/door-logo.png" />
+			
 			<h1>Larkfield Apartments</h1>
+			
+		<div id="topnav1">
+			
+			<ul><strong>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="location.html">LOCATION AND ATTRACTIONS</a></li>
+				<li><a href="booking-information.html">BOOKING INFORMATION</a></li>
+				<li><a href="booking.php">CONTACT US</a></li>
+			
+			</strong>
+			</ul>
+			
+		</div>
+
 	</div>
-			
+
 	<div id="topnav">
-	
-		<table>
-	
-			<tr id="table1"> 
-				<td><a href="index.html">HOME</a></td>
-				<td><a href="location.html">LOCATION AND ATTRACTIONS</a></td>
-				<td><a href="booking.html">BOOKING AND TARIFFS</a></td>
-			</tr>
-			
-		</table>
-					
-				
+
 		<table id="table2">
-			<tr>	
+			<tr>
 				<td><a href="studio.html">STUDIO APARTMENT</a></td>
 				<td><a href="one-bedroom.html">ONE BEDROOM APARTMENT</a></td>
 				<td><a href="two-bedroom-apt.html">TWO BEDROOM APARTMENT</a></td>
@@ -77,44 +80,37 @@
 				<td><a href="reviews.html">REVIEWS</a></td>
 			</tr>
 
-		</table> 
-	
+		</table>
+
 	</div>
+
 	
 	<div id="booking_page">
 			
-		<h1>Booking Information and Contact</h1>
+		<h1>Contact Information</h1>
 		<br>
 		
-		<h2>Booking</h2>
-		<p>There is a one week minimum stay.
-		A deposit of 10% is required to confirm your booking, to be balanced on arrival by cash or cheque supported by banker's card.
-		The deposit is non-returnable if cancelled.</p>
+		<p>You can contact us directly via the email address or telephone number provided below, or alternatively fill out our booking enquiry form.</p>
+		<br>
+		
+		<h2>Email:</h2>
+		<p>shipplets@ukgateway.net</p>
 		<br>
 				
-		<h2>Arrival and Departure</h2>
-		<p>The apartment is normally available after 4pm.
-		Please provide notification of your expected time of arrival so we can be there to welcome you and answer any questions.
-		Check out time is 10am, or later by prior arrangement.</p>
+		<h2>Telephone Number:</h2>
+		<p>+44 (0) 208 948 6620</p>
 		<br>
 		
-		<h2>Pets</h2>
-		<p>We regret no pets allowed.</p>
+		<h2>Correspondence Address:</h2>
+		<p>Larkfield Apartments,
+		<br> Ground Floor, 19 larkfield Road,
+		<br> Richmond-Upon-Thames, Surrey, TW9 2PG		
+		</p>
 		<br>
 					
-	<h2>Prices</h2>
-					
-	<ul style="list-style-image: url('images/index/swan-bullet.png'); text-align:left; padding-left:500px; font-size:17px">
-		<li> Studio Apartment: &sim;£95 to £110 per day.</li>
-		<li> One Bedroom Apartment: &sim;£100 to £125 per day.</li>
-		<li> Two Bedroom : &sim;£120 to £150 per day.</li>
-		<li> Two Bedroom House: &sim;£125 to £160 per day.</li>
-	</ul>
-	
-	<p><strong>Please note: rates vary depending on the number of occupants and the length of stay.</strong></p>
-	
+		
 	<br>
-	<h2 style="font-size:24px;">Please fill out the form below for any booking enquiries:</h2>
+	<h2 style="font-size:24px;">Booking Enquiry Form:</h2>
 	<br>
 	
 	</div>
@@ -172,37 +168,7 @@
 	
 	<div style="clear:both;">
 
-		<br><br><br>
-
-		<div class="email_box" style="margin:auto; width:360px; font-size:17px">
-			<a href="mailto:shipplets@ukgateway.net?subject=Accommodation enquiry to Larkfield Apartments">
-			You can alternatively email us directly at:
-			</a>
-			<br><span style ="font-size:20px">shipplets@ukgateway.net</span></div>
-		<br>
-		<a href="mailto:shipplets@ukgateway.net?subject=Accommodation enquiry to Larkfield Apartments">
-		<div style="text-align:center">
-		<img src="images/index/email-logo.jpg" alt="Email us" style ="width:85px; height:83px;">
-		</div>
-		</a>
-		
-		<table align="center">
-			<tr>
-				<td colspan="2" style="font-size:16px; text-align:center">
-					<br><br>
-					<strong><div style="color:#006666;">Correspondence Address:</div></strong>
-					<br>
-					Larkfield Apartments
-					<br>
-					Ground Floor, 19 Larkfield Road
-					<br>
-					Richmond-Upon-Thames, Surrey TW9 2PG
-					<br>Tel: +44 (0) 208 948 6620
-				</td>
-			</tr>
-		</table>
-
-		<br><br><br>
+		<br><br><br><br><br><br><br>
 
 		<table id="table_bottom2">
 			<tr>
@@ -212,7 +178,7 @@
 				<td><a href="two-bedroom-apt.html">Two Bedroom<br>Apartment</a></td>
 				<td><a href="two-bedroom-house.html">Two Bedroom<br>House</a></td>
 				<td><a href="location.html">Location</a></td>
-				<td><a href="booking.html">Booking</a></td>
+				<td><a href="booking.php">Contact Us</a></td>
 			</tr>
 		</table>
 	</div>
