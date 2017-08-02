@@ -43,14 +43,14 @@ body {background-color:#ffffff;
 #table2 a:hover {color:#ffffff; background-color:#0099CC;}
 #table2 a:focus {color:#ffffff;}
 
-#slider {width:100%;}
+#slider {width:50%;}
 #slider img {float:left; width:565px; height:423px;}
 
-#sidebar1 {height:150px; padding-top:10px;}
-#sidebar1 p {width:90%; float:left; font-size:23px; text-align:left; margin:20px 30px 0px 0px;}
+#sidebar1 {width:45%; padding-top:7px; margin:0px 30px 0px 0px;}
+#sidebar1 p {float:left; font-size:23px; text-align:left;}
 
-#sidebar2 {width:49%; height:200px; padding-top:0px; background-color:#E8FFFF; border:2px #AAD5FF solid; margin:21px 0px 0px 0px;}
-#sidebar2 h2 {float:left; font-size:20px; text-align:left; margin:9px 30px 0px 20px;}
+#sidebar2 {width:48%; padding:0px 9px 15px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid; margin:10px 0px 0px 0px;}
+#sidebar2 h2 {float:left; font-size:20px; text-align:left; margin:9px 0px 0px 20px;}
 
 #sidebar2 ul li
 	{float:left;
@@ -59,16 +59,6 @@ body {background-color:#ffffff;
 	margin:15px 25px 0px 0px;
 	line-height: 1.25;}
 
-#rightside {height:300px; padding-top:30px;}
-#rightside p {width:50%; float:left; font-size:22px; text-align:left; color:#006666; margin:20px 30px 0px 20px;}
-#rightside h2 {width: 40%; float:left; font-size:18px; text-align:left; margin:30px 30px 0px 20px;}
-
-#rightside ul 
-	{float:left;
-	font-size:16px;
-	text-align:left;
-	margin:15px 25px 0px 20px;
-	line-height: 1.25;}
 
 #subbanner {}
 
@@ -203,6 +193,19 @@ textarea.text_area2 {
 .info_page_right h2 {font-size:18px;}
 
 
+#rating-logo {width:56%; float:left; background-color:#ffffff; text-align:left; }
+#rating-logo h1 {padding:0px; font-size:20px; color:#006666; font-weight:bold }
+#rating-logo h2 {font-size:18px;}
+#rating-logo p {font-size:17px;}
+#rating-logo ul {padding-left:0px; font-size:17px; float:left; clear:both;}
+#rating-logo ul li {padding-bottom:10px;}
+#rating-logo img {float:left; margin-left:70px; padding:6px; border:2px #cccccc solid; width:110px; height:146px;}
+
+
+#location {float:left; width:50%; margin-left:55px;}
+#location p {font-size:17px; float:none;}
+
+
 .info_page_left {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
 .info_page_left img {float:right; padding:6px; border:2px #cccccc solid; margin-left:35px; margin-bottom: 20px;}
 .info_page_left p {font-size:17px;}
@@ -236,7 +239,7 @@ p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
 	text-align:left;
 	vertical-align:middle;
 	font-size:15px;
-	font-family: Garamond;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	background:linear-gradient(to bottom left, #DCFCBB, #ECFED8);
 	border:solid thin #006666;
 	border-radius:5px;
