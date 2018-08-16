@@ -13,7 +13,7 @@
 	
 	$( document ).ready(function() {
 		
-		$("#cpimg").attr('src', 'http://www.shipplets.com/dd_DynamicGraphic.php?text=' + $cpn);
+		$("#cpimg").attr('src', 'https://jasonshipp.github.io/dd_DynamicGraphic.php?text=' + $cpn);
 	});
 	
 	function captChk() {
@@ -56,13 +56,13 @@
 			
 		<div id="topnav1">
 			
-			<ul><strong>
+			<ul>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="location.html">LOCATION AND ATTRACTIONS</a></li>
 				<li><a href="booking-information.html">BOOKING INFORMATION</a></li>
-				<li><a href="booking.html">CONTACT US</a></li>
+				<li><a href="booking.php">CONTACT US</a></li>
 			
-			</strong>
+			
 			</ul>
 			
 		</div>
@@ -103,7 +103,7 @@
 		
 		<h2>Correspondence Address:</h2>
 		<p>Larkfield Apartments,
-		<br> Ground Floor, 19 larkfield Road,
+		<br> Ground Floor, 19 Larkfield Road,
 		<br> Richmond-Upon-Thames, Surrey, TW9 2PG		
 		</p>
 		<br>
@@ -147,7 +147,7 @@
 			<textarea name="enquiry" rows="8" class="text_area2"></textarea><br><br>
 	
 			<div style="margin:15px 0px 15px 0px;">
-				<img src="http://www.shipplets.com/dd_DynamicGraphic.php?text=0000" id="cpimg" alt="" />
+				<img src="https://jasonshipp.github.io/dd_DynamicGraphic.php?text=0000" id="cpimg" alt="" />
 			</div>
 			<input name="code" type="hidden" value="0" />
 			<p><strong>Please enter the code above in the box below and then select submit.</strong></p>
@@ -178,7 +178,7 @@
 				<td><a href="two-bedroom-apt.html">Two Bedroom<br>Apartment</a></td>
 				<td><a href="two-bedroom-house.html">Two Bedroom<br>House</a></td>
 				<td><a href="location.html">Location</a></td>
-				<td><a href="booking.html">Contact Us</a></td>
+				<td><a href="booking.php">Contact Us</a></td>
 			</tr>
 		</table>
 	</div>
