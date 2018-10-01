@@ -5,7 +5,7 @@ html {
 	margin: 0;
 }
 body {background-color:#ffffff;  		 
-	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-family:Calibri, "Trebuchet MS", Cambria, sans-serif;
 	padding: 0;
 	margin-top: 0px;
 	margin-bottom: 0;
@@ -23,7 +23,7 @@ body {background-color:#ffffff;
 
 #topnav1 {padding-top:7px;}
 #topnav1 ul {position:relative; width:auto; float:left; text-align:left; font-weight:bolder;}
-#topnav1 ul li {display:inline; text-align:left; font-size:16px;}
+#topnav1 ul li {display:inline; text-align:left; font-size:17px;}
 #topnav1 ul li a {float:left; padding:0px 27px; border-right:2px #C0C0C0 solid;}
 
 #topnav1 a:link {color:#004646; text-decoration: none;}
@@ -34,7 +34,7 @@ body {background-color:#ffffff;
 
 
 #table2 {background-color:#C0C0C0; text-align:center; width:100%; table-layout:fixed; height:28px; font-size:16px}
-#table2 td {background-color:#7F8C8D; text-align:center; width:10%; table-layout: fixed; height:26px}
+#table2 td {background-color:#7F8C8D; text-align:center; width:10%; table-layout: fixed; height:26px; font-weight:600;}
 
 
 #table2 a:link {color:#ffffff; text-decoration: none;}
@@ -46,21 +46,21 @@ body {background-color:#ffffff;
 #slider {width:50%;}
 #slider img {float:left; width:565px; height:423px;}
 
-#sidebar1 {width:45%; padding-top:7px; margin:0px 30px 0px 0px;}
+#sidebar1 {width:48%; padding-top:7px; margin:0px 30px 0px 0px;}
 #sidebar1 p {float:left; font-size:23px; text-align:left;}
 
-#sidebar2 {width:48%; padding:0px 9px 15px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid; margin:0px 0px 0px 0px;}
+#sidebar2 {width:48%; padding:0px 0px 15px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
 #sidebar2 h2 {float:left; font-size:20px; text-align:left; margin:9px 0px 0px 20px;}
+#sidebar2 p {float:left; font-size:19px; text-align:left; margin:24px 0px 0px 42px; clear:both;}
 
 #sidebar2 ul li
 	{float:left;
 	font-size:18px;
 	text-align:left;
-	margin:15px 25px 0px 0px;
-	line-height: 1.25;}
+	margin:15px 0px 0px 0px;
+	line-height: 1.25;
+	clear:both;}
 
-#sidebar3 {width:45%; float:left;}
-#sidebar3 p {font-size:20px; text-align:left; margin-top:0px;}
 
 #subbanner {}
 
@@ -72,12 +72,7 @@ body {background-color:#ffffff;
 #content_main1 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:center; padding: 0px 0px 15px 0px;}
 #content_main1 h1 {font-size:29px; text-align:center; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
 #content_main1 p {font-size:19px; padding-top:18px; line-height:1.5; text-align:justify}
-#content_main1 img {float:right; padding:50px 0px 70px 60px; overflow:auto }
-
-
-
-
-
+#content_main1 img {float:right; padding:30px 0px 50px 60px; overflow:auto; width:450px; height:305px;}
 
 
 #content_main2 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
@@ -85,19 +80,21 @@ body {background-color:#ffffff;
 #content_main2 ul {text-align:left,}
 #content_main2 ul li {text-align:left; font-size:18px; line-height:1.8;}
 
-#content_main {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
-#content_main h1 {font-size:29px; text-align:left; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
-#content_main p {clear:both; font-size:18px; padding-top:20px;}
+#content_main2 ul li a:link {color:black;}
+#content_main2 ul li a:visited {color:black;}
 
 
+#content_main3 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
+#content_main3 h1 {font-size:29px; text-align:left; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
+#content_main3 p {clear:both; font-size:18px; padding-top:20px;}
 
 
 
 #content_table {width:94%; margin:0px auto; }
-#content_table td {width:50%; }
+#content_table td {width:50%;}
+#content_table td figcaption {clear:both; font-size:17px;}
 #content_table td p {font-size:18px; text-align:justify; padding-top:0px;}
-#content_table td img {width:410px; height:289px; padding:6px; border:2px #cccccc solid; margin:10px 0px 0px 30px; }
-
+#content_table td img {width:420px; height:319px; padding:6px; border:2px #cccccc solid; margin:10px 40px 0px 40px; }
 
 
 
@@ -139,7 +136,7 @@ input.input1 {
 	padding:5px;
 	margin-bottom:5px;
 	font-size:16px;
-	font-family:arial;}
+	font-family:Verdana, "Trebuchet MS", Arial, Calibri}
 input.input2 {
 	border:solid #006666 thin;
 	box-shadow:1px 1px 1px #006666;
@@ -148,7 +145,7 @@ input.input2 {
 	padding:5px;
 	font-size:16px;
 	font-weight: bold;
-	font-family:arial;
+	font-family:Verdana, "Trebuchet MS", Arial, Calibri;
 	vertical-align:middle}
 	
 input.input_button {
@@ -282,6 +279,8 @@ color:#006666;}
 .gallery4 img {height:165px; width:250px; padding: 6px; border:1px #cccccc solid; margin:0px 0px 8px 8px; }
 .gallery4 img:hover {transform:scale(1.1)}
 
+.gallery1 a title {font-size:large;}
+
 
 .info_page_left {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
 .info_page_left img {float:right; padding:6px; border:2px #cccccc solid; margin-left:35px; margin-bottom: 20px;}
@@ -337,6 +336,6 @@ p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
 #table_bottom2 a:hover 	{color:#ffffff; background-color:#0099CC;}
 #table_bottom2 a:visited {color:#006666;}
 
-#footer {text-align:center; font-size:10px; color:#7B7D7D; text-decoration:none; width:100%; table-layout:fixed;}
+#footer {text-align:center; font-size:10px; color:#7B7D7D; text-decoration:none; width:80%; margin:0px auto; table-layout:fixed;}
 #footer a:link {text-decoration: none; color:#7B7D7D}
 #footer a:visited {text-decoration: none; color:#7B7D7D}
