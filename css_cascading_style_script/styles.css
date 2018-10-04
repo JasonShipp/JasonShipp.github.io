@@ -16,7 +16,7 @@ body {background-color:#ffffff;
 
 #wrapper {width:96%; min-width: 1026px; margin:0px auto; background-color:#FFFFFF;}
 
-#top {width:100%; height:141px; overflow:hidden; position:relative; clear:both;}		
+#top {width:100%; margin:0px auto; height:141px; overflow:hidden; position:relative; clear:both;}		
 #top h1 {font-size:58px; color:#004646; position:relative; text-align:left; font-family:"Andalus", "Times New Roman", Times, serif; line-height:12px;}
 #door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:20px;}
 #background {opacity:0.3; position: absolute; height:141px; width:100%; }
@@ -89,27 +89,10 @@ body {background-color:#ffffff;
 #content_main3 p {clear:both; font-size:18px; padding-top:20px;}
 
 
-
-#content_table {width:94%; margin:0px auto; }
-#content_table td {width:50%;}
+#content_table {width:94%; margin:0px auto; table-layout:fixed;}
+#content_table td {width:auto; table-layout:fixed;}
 #content_table td figcaption {clear:both; font-size:17px;}
-#content_table td p {font-size:18px; text-align:justify; padding-top:0px;}
-#content_table td img {width:420px; height:319px; padding:6px; border:2px #cccccc solid; margin:10px 40px 0px 40px; }
-
-
-
-
-#content1 {width:47%; margin-left:3%; background-color:#ffffff; text-align:left; float:left;}
-#content1 img {width:410px; height:289px; float:left; padding:6px; border:2px #cccccc solid; margin-left:35px; margin-top:0px;}
-#content1 p {font-size:18px; padding-top:0px;}
-
-#content2 {width:47%; margin-left:3%; background-color:#ffffff; clear:right; text-align:left; float:left;}
-#content2 img {width:410px; height:289px; float:right; padding:6px; border:2px #cccccc solid; margin-right:35px;}
-#content2 p {font-size:18px; padding:0px 0px 0px 0px;}
-
-#content3 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding:0px}
-#content3 img {width:410px; height:289px; float:right; padding:6px; border:2px #cccccc solid; margin-left:40px;}
-#content3 p {float:none; font-size:18px; padding-top:0px;}
+#content_table td img {width:420px; height:319px; padding:6px; border:1px #cccccc solid; margin:10px 40px 0px 40px;}
 
 
 
@@ -216,7 +199,7 @@ textarea.text_area2 {
 .email_box a:link {color:#003333; text-decoration:none;}
 
 .info_page_right {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
-.info_page_right img {float:left; padding:6px; border:2px #cccccc solid; margin-right:38px;}
+.info_page_right img {float:left; padding:6px; border:1px #cccccc solid; margin-right:38px;}
 .info_page_right p {font-size:18px; }
 .info_page_right ul {padding-left:0px; font-size:18px;}
 .info_page_right ul li {padding-bottom:10px;}
@@ -230,7 +213,9 @@ textarea.text_area2 {
 #apartment-layout p {font-size:18px;}
 #apartment-layout ul {font-size:18px; float:left; clear:both; margin-top:5px;}
 #apartment-layout ul li {padding-bottom:8px;}
-#apartment-layout img {float:left; margin:0px 0px 0px 70px; padding:6px; border:2px #cccccc solid; width:110px; height:146px;}
+
+#rating_logo {float:left; width:180px;}
+#rating_logo img {float:left; clear:both; margin:1px 0px 0px 75px; padding:0px; border:0px; width:110px; height:146px;}
 
 
 #location {float:left; width:44%; padding-left:30px;}
@@ -283,7 +268,7 @@ color:#006666;}
 
 
 .info_page_left {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
-.info_page_left img {float:right; padding:6px; border:2px #cccccc solid; margin-left:35px; margin-bottom: 20px;}
+.info_page_left img {float:right; padding:6px; border:1px #cccccc solid; margin-left:35px; margin-bottom: 20px;}
 .info_page_left p {font-size:18px;}
 .info_page_left h1 { font-size:20px; color:#006666; font-weight:bold}
 
@@ -298,7 +283,7 @@ color:#006666;}
 
 
 .info_page_bottom {width:94%; padding-top:75px; margin:0px auto; background-color:#ffffff; clear:both; text-align:center;}
-.info_page_bottom img {padding:6px; border:2px #cccccc solid; width:100%; height: auto; max-width: 375px;}
+.info_page_bottom img {padding:6px; border:1px #cccccc solid; width:100%; height: auto; max-width: 375px;}
 
 img.map {
 	height:100px;
